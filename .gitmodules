@@ -1,3 +1,0 @@
-[submodule "server/server/backend"]
-	path = server/server/backend
-	url = https://git.heroku.com/berry-pickers.git
