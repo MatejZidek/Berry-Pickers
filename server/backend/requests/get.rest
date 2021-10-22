@@ -1,0 +1,12 @@
+GET http://localhost:3003/api/routes/
+
+###
+GET http://localhost:3003/api/routes/6172ac5c80b5e0ce84452723
+
+###
+GET https://berry-pickers.herokuapp.com/api/routes
+
+###
+GET https://berry-pickers.herokuapp.com/api/routes/6172ac5c80b5e0ce84452723
+
+###

@@ -1,0 +1,37 @@
+POST http://localhost:3003/api/routes/
+Content-Type: application/json
+
+{
+    "title": "To be deleted, take the id",
+    "destinations": [
+        {
+            "coords": {
+                "latitude": 60.205259141317605,
+                "longitude": 24.962549911309807
+            },
+            "ETA": "2021-10-22 17:45:00"
+        },
+        {
+            "coords": {
+                "latitude": 60.20429746821517,
+                "longitude": 24.961008203186612
+            },
+            "ETA": "2021-10-22 17:55:00"
+        },
+        {
+            "coords": {
+                "latitude": 60.20447978741041,
+                "longitude":  24.964537751223222
+            },
+            "ETA": "2021-10-22 18:00:00"
+        }
+    ]
+}
+
+###
+DELETE http://localhost:3003/api/routes/6172b69c1b4d0fef1c791a1b
+
+###
+GET http://localhost:3003/api/routes/
+
+###

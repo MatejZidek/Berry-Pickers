@@ -1,0 +1,28 @@
+GET http://localhost:3003/api/routes/
+
+###
+POST http://localhost:3003/api/routes/6172ac5c80b5e0ce84452723
+Content-Type: application/json
+
+{
+    "visitedDestination": 0,
+}
+
+###
+POST http://localhost:3003/api/routes/6172ac5c80b5e0ce84452723
+Content-Type: application/json
+
+{
+    "currentLocation": {
+        "coords": {
+            "latitude": 60.205329173828,
+            "longitude": 24.96177717466097
+        },
+        "timestamp": "2021-10-22 17:46:00"
+    }
+}
+
+###
+GET http://localhost:3003/api/routes/
+
+###
